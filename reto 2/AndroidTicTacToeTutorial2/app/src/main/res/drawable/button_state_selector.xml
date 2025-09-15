@@ -3,16 +3,16 @@
 
     <!-- ESTADO CUANDO EL BOTÓN ESTÁ PRESIONADO -->
     <item android:state_pressed="true">
-        <shape android:shape="rectangle">
+        <shape android:shape="oval">
             <!-- CAMBIA ESTE COLOR (ej: un azul oscuro) -->
             <solid android:color="#FFFFFF"/>
-            <corners android:radius="12dp"/>
+            <corners android:radius="100dp"/>
         </shape>
     </item>
 
     <!-- ESTADO NORMAL (por defecto) -->
     <item>
-        <shape android:shape="rectangle">
+        <shape android:shape="oval">
             <!-- CAMBIA ESTE COLOR (ej: un azul más claro) -->
             <solid android:color="#FFFFFF"/>
 

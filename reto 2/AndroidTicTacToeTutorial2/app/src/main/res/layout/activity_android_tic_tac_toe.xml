@@ -110,6 +110,10 @@
 
 
     <!-- Texto de información (para mostrar turnos y resultados) -->
+
+
+    <!-- Marcador (Implementación del Desafío) -->
+
     <TextView
         android:id="@+id/information"
         android:layout_width="fill_parent"
@@ -120,8 +124,6 @@
         android:textColor="@color/white"
         android:textSize="20dp" />
 
-
-    <!-- Marcador (Implementación del Desafío) -->
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -157,14 +159,19 @@
             android:textSize="18sp" />
     </RelativeLayout>
 
-    <Button
-        android:id="@+id/new_game_button"
-        android:layout_width="wrap_content"
+    <RelativeLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="New Game"
-        android:textColor="@color/white"
-        android:background="@android:drawable/btn_default_small"/>
+        android:layout_marginTop="20dp">
 
+        <Button
+            android:id="@+id/new_game_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@android:drawable/btn_default_small"
+            android:text="New Game"
+            android:textColor="@color/white" />
+    </RelativeLayout>
 
 </LinearLayout>
