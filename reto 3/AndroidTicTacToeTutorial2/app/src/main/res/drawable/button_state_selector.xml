@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- ESTADO CUANDO EL BOTÓN ESTÁ PRESIONADO -->
+    <item android:state_pressed="true">
+        <shape android:shape="oval">
+            <!-- CAMBIA ESTE COLOR (ej: un azul oscuro) -->
+            <solid android:color="#FFFFFF"/>
+            <corners android:radius="100dp"/>
+        </shape>
+    </item>
+
+    <!-- ESTADO NORMAL (por defecto) -->
+    <item>
+        <shape android:shape="oval">
+            <!-- CAMBIA ESTE COLOR (ej: un azul más claro) -->
+            <solid android:color="#FFFFFF"/>
+
+            <corners android:radius="20dp"/>
+        </shape>
+    </item>
+
+</selector>
