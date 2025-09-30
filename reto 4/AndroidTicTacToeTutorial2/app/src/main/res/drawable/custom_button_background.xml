@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <!-- Define el color de fondo sólido del botón -->
+    <solid android:color="#000000"/> <!-- Un morado agradable -->
+
+    <!-- Define las esquinas redondeadas -->
+    <corners android:radius="100dp"/>
+
+    <!-- Opcional: Añade un borde -->
+    <stroke
+        android:width="200dp"
+        android:color="#000000"/> <!-- Un morado un poco más oscuro para el borde -->
+
+</shape>
