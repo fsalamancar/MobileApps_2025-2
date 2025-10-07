@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@drawable/board_bg_nocrop"
+    tools:context=".MainMenuActivity">
+
+    <ImageView
+        android:id="@+id/image_logo"
+        android:layout_width="338dp"
+        android:layout_height="379dp"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tic-Tac-Toe"
+        android:textSize="34sp"
+        android:layout_marginBottom="48dp"
+        android:fontFamily="casual"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/button_play_online"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Online mode"
+        android:fontFamily="casual"
+        android:background="@android:drawable/btn_default_small"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/button_play_local"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Offline Mode"
+        android:fontFamily="casual"
+        android:background="@android:drawable/btn_default_small"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

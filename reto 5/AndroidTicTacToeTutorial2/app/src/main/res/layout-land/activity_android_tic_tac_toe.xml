@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/board_bg_nocrop"
+    android:padding="16dp">
+
+    <co.edu.unal.tictactoe.BoardView
+        android:id="@+id/board"
+        android:layout_width="270dp"
+        android:layout_height="270dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="5dp" />
+
+    <LinearLayout
+        android:id="@+id/right_panel"
+        android:layout_width="296dp"
+        android:layout_height="188dp"
+        android:layout_marginStart="40dp"
+        android:layout_toEndOf="@id/board"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/information"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="casual"
+            android:gravity="center_horizontal"
+            android:text="Empieza el juego"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/human_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="Human: 0"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/ties_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_toEndOf="@id/human_score"
+                android:fontFamily="casual"
+                android:text="Ties: 0"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/computer_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_toEndOf="@id/ties_score"
+                android:fontFamily="casual"
+                android:text="Android: 0"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/new_game_button"
+            android:layout_width="212dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@android:drawable/btn_default_small"
+            android:fontFamily="casual"
+            android:text="New Game"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</RelativeLayout>
