@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".DetailActivity">
+
+    <TextView
+        android:id="@+id/detail_principio_activo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:text="Principio Activo: " />
+
+    <TextView
+        android:id="@+id/detail_nombre_comercial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"
+        android:text="Nombre Comercial: " />
+
+    <TextView
+        android:id="@+id/detail_fabricante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"
+        android:text="Fabricante: " />
+
+    <TextView
+        android:id="@+id/detail_concentracion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"
+        android:text="Concentración: " />
+
+    <TextView
+        android:id="@+id/detail_unidad_de_dispensacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"
+        android:text="Unidad de Dispensación: " />
+
+    <TextView
+        android:id="@+id/detail_unidad_base"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"
+        android:text="Unidad Base: " />
+
+    <TextView
+        android:id="@+id/detail_precio_por_tableta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"
+        android:text="Precio por Tableta: " />
+
+    <TextView
+        android:id="@+id/detail_factoresprecio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"
+        android:text="Factores de Precio: " />
+
+    <TextView
+        android:id="@+id/detail_numerofactor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"
+        android:text="Número de Factor: " />
+
+</LinearLayout>
